@@ -1,8 +1,8 @@
 import React from "react";
-import { GitHubFooterIMG } from "../../assets/images/footer/githubfooter.png";
-import { LinkedInFooterIMG } from "../../assets/images/footer/linkedinfooter.png";
-import { YouTubeFooterIMG } from "../../assets/images/footer/youtubefooter.png";
-import { GmailFooterIMG } from "../../assets/images/footer/gmailfooter.png";
+import { GitHubFooterIMG } from "src/assets/images/footer/githubfooter.png";
+import { LinkedInFooterIMG } from "src/assets/images/footer/linkedinfooter.png";
+import { YouTubeFooterIMG } from "src/assets/images/footer/youtubefooter.png";
+import { GmailFooterIMG } from "src/assets/images/footer/gmailfooter.png";
 
 function Footer() {
   return (
