@@ -1,8 +1,8 @@
 import React from "react";
-import { GitHubFooterIMG } from "src/assets/images/footer/githubfooter.png";
-import { LinkedInFooterIMG } from "src/assets/images/footer/linkedinfooter.png";
-import { YouTubeFooterIMG } from "src/assets/images/footer/youtubefooter.png";
-import { GmailFooterIMG } from "src/assets/images/footer/gmailfooter.png";
+import gitHubFooterIMG from "../../assets/images/footer/githubfooter.png";
+import linkedInFooterIMG from "../../assets/images/footer/linkedinfooter.png";
+import youTubeFooterIMG from "../../assets/images/footer/youtubefooter.png";
+import gmailFooterIMG from "../../assets/images/footer/gmailfooter.png";
 
 function Footer() {
   return (
@@ -12,22 +12,22 @@ function Footer() {
         <ul>
           <li>
             <a href="https://www.github.com/TheOarsman">
-              <GitHubFooterIMG />
+              <img src={gitHubFooterIMG} />
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/heinz-ulrich-v-3a3486a0/">
-              <LinkedInFooterIMG />
+              <img src={linkedInFooterIMG} />
             </a>
           </li>
           <li>
             <a href="https://www.youtube.com/@theoarsman4581">
-              <YouTubeFooterIMG />
+              <img src={youTubeFooterIMG} />
             </a>
           </li>
           <li>
             <a href="mailto:heinzulrichv@gmail.com">
-              <GmailFooterIMG />
+              <img src={gmailFooterIMG} />
             </a>
           </li>
         </ul>
