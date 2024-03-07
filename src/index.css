@@ -166,7 +166,7 @@ header nav ul li a:hover {
 .intro-img img {
   max-width: 100%;
   height: auto;
-  margin-left: 5px;
+  margin-left: 10px;
   border-radius: 10px; /* Adjust the value to change the roundness */
   border: 2px solid #344444; /* Add your desired color for the border */
 }

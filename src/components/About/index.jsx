@@ -11,7 +11,11 @@ function About() {
       <div className="flex-row">
         <div class="intro-info">
           <div class="intro-img">
-            <img src={profileImage} style={{ width: "100%" }} alt="profile" />
+            <img
+              src={profileImage}
+              style={{ width: "100%", marginBottom: "1rem" }}
+              alt="profile"
+            />
           </div>
           <p style={{ marginBottom: "1rem" }}>
             Hi, I'm Heinz Ulrich V, and I've always believed in leading by
