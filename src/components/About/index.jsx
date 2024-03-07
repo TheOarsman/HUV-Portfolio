@@ -13,7 +13,7 @@ function About() {
           <div class="intro-img">
             <img src={profileImage} style={{ width: "100%" }} alt="profile" />
           </div>
-          <p>
+          <p style={{ marginBottom: "1rem" }}>
             Hi, I'm Heinz Ulrich V, and I've always believed in leading by
             example and embracing new challenges. My journey began at Western
             Michigan University, where I earned a B.A. in Political Science with
@@ -22,7 +22,7 @@ function About() {
             industry, marked by leadership roles and a relentless pursuit of
             excellence.
           </p>
-          <p>
+          <p style={{ marginBottom: "1rem" }}>
             My time at Bell’s Brewery, Inc. in Kalamazoo, Michigan, and
             SweetWater Brewing Company, in Fort Collins, Colorado, was
             transformative. From managing packaging operations to coordinating
@@ -32,7 +32,7 @@ function About() {
             operational optimization, all while fostering a culture of
             collaboration and continuous improvement.
           </p>
-          <p>
+          <p style={{ marginBottom: "1rem" }}>
             Beyond the brewery, I find joy in family life and outdoor
             adventures. Whether it's camping with loved ones or exploring nature
             through hiking and kayaking, I cherish these moments of connection
@@ -40,7 +40,7 @@ function About() {
             competitive levels and playing soccer, instilled in me a passion for
             teamwork and perseverance.
           </p>
-          <p>
+          <p style={{ marginBottom: "1rem" }}>
             Now, as I embark on a new chapter in web development through
             Michigan State University’s Coding Bootcamp, I'm excited to merge my
             analytical skills with my love for design. With a hunger for
