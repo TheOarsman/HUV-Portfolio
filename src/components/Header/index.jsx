@@ -19,8 +19,8 @@ function Header(props) {
           </div>
         </header>
       </section>
-      <section className="hero">
-        <div className="hero-cta">
+      <section className="hero-welcome">
+        <div className="hero-cta-welcome">
           {/* <img
             src={coverImage}
             className="my-2"
