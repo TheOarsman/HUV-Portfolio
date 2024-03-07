@@ -105,7 +105,7 @@ header nav ul li a:hover {
 
 /* Hero Style Start */
 .hero {
-  background-image: url("../src/assets/images/others/orange_mist_splash.jpg");
+  background-image: url("../src/assets/images/others/inksplash.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
