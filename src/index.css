@@ -40,14 +40,14 @@ code {
 /* start apply styles to <header> */
 header {
   padding: 20px 35px;
-  background-color: #d5f2ea;
+  background-color: #344444;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url("../src/assets/cover/5330558.jpg");
+  background-image: url("../src/assets/images/others/yelloiwPics.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -59,13 +59,13 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: #0e5259;
+  color: #a1402c;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
   text-decoration: none;
-  color: #0e5259;
+  color: #a1402c;
 }
 
 header nav {
@@ -96,8 +96,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background: #0e5259;
-  color: #d5f2ea;
+  background: #d5cec4;
+  color: #344444;
   border-radius: 15px;
   text-shadow: none;
   /*    transition: .5s ease-in;*/
