@@ -185,11 +185,11 @@ header nav ul li a:hover {
 /* REACH OUT STYLES START */
 #reach-out {
   /* margin-top: 5px; */
-  background: #75bfb2;
+  background: #4a6161;
 }
 
 #reach-out h2 {
-  color: #0e5259;
+  color: #e6b049;
 }
 
 .contact h2 {
@@ -208,7 +208,7 @@ header nav ul li a:hover {
 
 .contact-form button:hover {
   color: #f2e3d5;
-  background: #39a6b2;
+  background: #d4ad63;
 }
 
 .contact-form input,
@@ -256,7 +256,7 @@ header nav ul li a:hover {
 }
 
 .contact-info h3 {
-  color: #0e5259;
+  color: #e6b049;
   font-size: 32px;
 }
 
@@ -276,7 +276,7 @@ header nav ul li a:hover {
 }
 
 .contact-info a {
-  color: #0e5259;
+  color: #e6b049;
   display: inline;
 }
 
