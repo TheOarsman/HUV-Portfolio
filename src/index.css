@@ -479,7 +479,7 @@ header nav ul li a:hover {
 
 /* start styles to <footer> */
 footer {
-  background: #d5f2ea;
+  background: #344444;
   font-weight: bold;
   width: 100%;
   height: 100px;
@@ -491,8 +491,8 @@ footer {
 }
 
 footer h2 {
-  color: #75bfb2;
-  font-size: 15px;
+  color: #e6b049;
+  font-size: 20px;
   margin: 0;
 }
 

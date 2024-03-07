@@ -14,7 +14,7 @@ function Footer() {
           style={{ display: "inline-block", marginRight: "10px" }}
         >
           <a href="https://www.github.com/TheOarsman">
-            <img src={gitHubFooterIMG} alt="GitHub" height="24" width="24" />
+            <img src={gitHubFooterIMG} alt="GitHub" height="26" width="26" />
           </a>
         </li>
         <li
@@ -25,8 +25,8 @@ function Footer() {
             <img
               src={linkedInFooterIMG}
               alt="LinkedIn"
-              height="24"
-              width="24"
+              height="26"
+              width="26"
             />
           </a>
         </li>
@@ -35,12 +35,12 @@ function Footer() {
           style={{ display: "inline-block", marginRight: "10px" }}
         >
           <a href="https://www.youtube.com/@theoarsman4581">
-            <img src={youTubeFooterIMG} alt="YouTube" height="24" width="24" />
+            <img src={youTubeFooterIMG} alt="YouTube" height="26" width="26" />
           </a>
         </li>
         <li className="logo" style={{ display: "inline-block" }}>
           <a href="mailto:heinzulrichv@gmail.com">
-            <img src={gmailFooterIMG} alt="Gmail" height="24" width="24" />
+            <img src={gmailFooterIMG} alt="Gmail" height="26" width="26" />
           </a>
         </li>
       </ul>
