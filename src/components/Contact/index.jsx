@@ -39,7 +39,7 @@ function Contact() {
       // Then we check to see if the message is not valid. If so, we set an error message regarding the message.
     }
 
-    if (!setMessage(message)) {
+    if (!message) {
       setErrorMessage(`Message is required.`);
       return;
     }
