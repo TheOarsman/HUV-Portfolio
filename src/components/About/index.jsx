@@ -8,15 +8,15 @@ function About() {
           About Me
         </h1>
       </div>
-      <div className="flex-row">
-        <div class="intro-info">
-          <div class="intro-img">
-            <img
-              src={profileImage}
-              style={{ width: "100%", marginBottom: "1rem" }}
-              alt="profile"
-            />
-          </div>
+      <div className="flex-row intro-info">
+        <div class="intro-img">
+          <img
+            src={profileImage}
+            style={{ width: "100%", marginBottom: "1rem" }}
+            alt="profile"
+          />
+        </div>
+        <div className="intro-text">
           <p style={{ marginBottom: "1rem" }}>
             Hi, I'm Heinz Ulrich V, and I've always believed in leading by
             example and embracing new challenges. My journey began at Western

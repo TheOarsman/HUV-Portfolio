@@ -159,8 +159,9 @@ header nav ul li a:hover {
 }
 
 .intro-img {
-  flex: 1 12%;
-  margin-right: 20px;
+  flex: 2 12%;
+  margin-right: 10px;
+  margin-left: 30px;
 }
 
 .intro-img img {
@@ -168,7 +169,7 @@ header nav ul li a:hover {
   height: auto;
   margin-left: 10px;
   border-radius: 10px; /* Adjust the value to change the roundness */
-  border: 2px solid #344444; /* Add your desired color for the border */
+  border: 3px solid #344444; /* Add your desired color for the border */
 }
 
 .intro-text {
@@ -176,7 +177,7 @@ header nav ul li a:hover {
 }
 
 .intro-text p {
-  color: #328c83;
+  color: #344444;
   font-size: 18px;
 }
 
