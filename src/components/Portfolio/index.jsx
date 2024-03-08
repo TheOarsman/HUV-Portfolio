@@ -1,204 +1,205 @@
 import React from "react";
+import employeeTracker from "../../assets/images/projectIMGs/employee_tracker.jpg";
+import eCommerce from "../../assets/images/projectIMGs/orm_e_commerce.png";
+import passWordGen from "../../assets/images/projectIMGs/PsswrdGnrtr.png";
+import readMeGen from "../../assets/images/projectIMGs/readme_generator.jpg";
+import sillyAPI from "../../assets/images/projectIMGs/SillyAPI.jpg";
+import socialNetwork from "../../assets/images/projectIMGs/social_network_api.png";
+import weatherDash1 from "../../assets/images/projectIMGs/weather_dashboard1.png";
+import weatherDash2 from "../../assets/images/projectIMGs/weather_dashboard2.png";
+import workDayScheduler from "../../assets/images/projectIMGs/work_day_scheduler.jpg";
+
 function Portfolio() {
-  return "";
+  return (
+    <div>
+      <section id="work" className="jobs">
+        <div className="flex-row">
+          <h2 className="section-title secondary-border">Work</h2>
+        </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://github.com/TheOarsman/SQL_Employee_Tracker">
+                {" "}
+                <img
+                  src={employeeTracker}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Employee Tracker"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Employee Tracker</h4>
+              <p>
+                A SQL application, allowing for tracking of employees within a
+                company.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://github.com/TheOarsman/ORM-E-Commerce-Back-End">
+                {" "}
+                <img
+                  src={eCommerce}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="E-Commerce"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>E-Commerce: Back-End ORM</h4>
+              <p>
+                A back-end ORM for an E-Commerce website. Adding fluff because I
+                need to for some reason.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://github.com/TheOarsman/Rodnam-Proswasd-Gnereotar">
+                {" "}
+                <img
+                  src={passWordGen}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Password Generator"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Password Generator</h4>
+              <p>
+                A password generator for making a random password. Adding more
+                filler here.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://github.com/TheOarsman/README-Generator">
+                {" "}
+                <img
+                  src={readMeGen}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Readme Generator"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>README Generator</h4>
+              <p>
+                A Markdown file, that generates a professional README.md file.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://github.com/TheOarsman/slAPI">
+                {" "}
+                <img
+                  src={sillyAPI}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Silly API"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Slappi API</h4>
+              <p>
+                A website for all things wonky and silly, that coders and
+                programmers can have fun!{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://github.com/TheOarsman/Social-Network-API">
+                {" "}
+                <img
+                  src={socialNetwork}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Social Network"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Social Network</h4>
+              <p>
+                An API for a social network site It does things and other stuff.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://theoarsman.github.io/Weather_Dashboard_SS_API/">
+                {" "}
+                <img
+                  src={weatherDash1}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Weather Dashboard"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Weather Dashboard</h4>
+              <p>
+                A Weather Dashboard (site) for getting the weather in any US
+                city, along with a 5-day forecast!{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://theoarsman.github.io/Work-Day-Scheduler/">
+                {" "}
+                <img
+                  src={workDayScheduler}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Workday Scheduler"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Workday Scheduler</h4>
+              <p>
+                A scheduler/planner for map out your day. Give current times,
+                and allows you to schedule events during the day.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 }
 
 export default Portfolio;
-
-import React from "react";
-import employeeTracker from "../../assets/projectIMGs/employee_tracker.jpg";
-import eCommerce from "../../assets/projectIMGs/orm_e_commerce.png";
-import passWordGen from "../../assets/projectIMGs/PsswrdGnrtr.png";
-import readMeGen from "../../assets/projectIMGs/readme_generator.png";
-import sillyAPI from "../../assets/projectIMGs/SillyAPI.jpg";
-import socialNetwork from "../../assets/projectIMGs/social_network_api.png";
-import weatherDash1 from "../../assets/projectIMGs/weather_dashboard1.png";
-import weatherDash2 from "../../assets/projectIMGs/weather_dashboard2.png";
-import workDayScheduler from "../../assets/projectIMGs/work_day_scheduler.jpg";
-
-// function Portfolio() {
-//   return (
-//     <div>
-//       <section id="work" className="jobs">
-//         <div className="flex-row">
-//           <h2 className="section-title secondary-border">Work</h2>
-//         </div>
-
-//         <div className="job">
-//           <div className="job-info">
-//             <div className="job-img">
-//               <a href="https://lemming97.github.io/Sweet-Pea-Flowers/">
-//                 {" "}
-//                 <img
-//                   src={sphereImage}
-//                   className="my-2"
-//                   style={{ width: "100%" }}
-//                   alt="Sweet-Pea-Flowers"
-//                 />
-//               </a>
-//             </div>
-//             <div className="job-text">
-//               <h4>Sorcerer's Sphere</h4>
-//               <p>
-//                 A MERN application that lets the user log in and create an
-//                 account. The user can receive daily affirmations. The user also
-//                 has the ability to ask questions to receive an answer. The user
-//                 also can receive a lucky number if they want. The user can
-//                 donate money to the website if they want to.
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-
-//         <div className="job">
-//           <div className="job-info">
-//             <div className="job-img">
-//               <a href="https://lemming97.github.io/Sweet-Pea-Flowers/">
-//                 {" "}
-//                 <img
-//                   src={flowerImage}
-//                   className="my-2"
-//                   style={{ width: "100%" }}
-//                   alt="Sweet-Pea-Flowers"
-//                 />
-//               </a>
-//             </div>
-//             <div className="job-text">
-//               <h4>Sweet Pea Flowers</h4>
-//               <p>
-//                 A HTMl, CSS, and Javascript application that lets the user shop
-//                 for their favorite flowers.The user can sign in as a guest or as
-//                 a user to add items to their cart. The user can manage their
-//                 cart by using local storage. The user can checkout and validate
-//                 their credit card.{" "}
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-
-//         <div className="job">
-//           <div className="job-info">
-//             <div className="job-img">
-//               <a href="https://lemming97.github.io/Twilight_Ristorante/">
-//                 {" "}
-//                 <img
-//                   src={twilightImage}
-//                   className="my-2"
-//                   style={{ width: "100%" }}
-//                   alt="Twilight_Ristorante"
-//                 />
-//               </a>
-//             </div>
-//             <div className="job-text">
-//               <h4>Twilight Ristorante</h4>
-//               <p>
-//                 A HTML and CSS application that lets the user explore a Sample
-//                 Restaurant Design.{" "}
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-
-//         <div className="job">
-//           <div className="job-info">
-//             <div className="job-img">
-//               <a href="https://nameless-mountain-77177.herokuapp.com/">
-//                 {" "}
-//                 <img
-//                   src={noteTakerImage}
-//                   className="my-2"
-//                   style={{ width: "100%" }}
-//                   alt="Note_Taker"
-//                 />
-//               </a>
-//             </div>
-//             <div className="job-text">
-//               <h4>Note Taker</h4>
-//               <p>
-//                 An application that provides the user the ability to add new
-//                 notes, and to delete notes.{" "}
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-
-//         <div className="job">
-//           <div className="job-info">
-//             <div className="job-img">
-//               <a href="https://lemming97.github.io/Weather_Dashboard/">
-//                 {" "}
-//                 <img
-//                   src={weatherDashImage}
-//                   className="my-2"
-//                   style={{ width: "100%" }}
-//                   alt="Weather_Dashboard"
-//                 />
-//               </a>
-//             </div>
-//             <div className="job-text">
-//               <h4>Weather Dashboard</h4>
-//               <p>
-//                 A website that allows the user see the weather outlook for
-//                 multiple cities. The user can enter a city and see a 5-Day
-//                 Forecast. The user can see the temperature, humidity levels,
-//                 wind speed as well as the UV index.{" "}
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-
-//         <div className="job">
-//           <div className="job-info">
-//             <div className="job-img">
-//               <a href="https://lemming97.github.io/Project_1/">
-//                 {" "}
-//                 <img
-//                   src={summerPunchImage}
-//                   className="my-2"
-//                   style={{ width: "100%" }}
-//                   alt="SummerPunch"
-//                 />
-//               </a>
-//             </div>
-//             <div className="job-text">
-//               <h4>Summer Punch</h4>
-//               <p>
-//                 A website which offers users to input a drink name to have the
-//                 ingredients, measurements, and images display. The user can also
-//                 have a cocktail generated. If the user is too young, the user
-//                 will be redirected to another page.{" "}
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-
-//         <div className="job">
-//           <div className="job-info">
-//             <div className="job-img">
-//               <a href="https://floating-island-17357.herokuapp.com/">
-//                 {" "}
-//                 <img
-//                   src={homeBrewImage}
-//                   className="my-2"
-//                   style={{ width: "100%" }}
-//                   alt="HomeBrew"
-//                 />
-//               </a>
-//             </div>
-//             <div className="job-text">
-//               <h4>HomeBrew</h4>
-//               <p>
-//                 A plant blog that allows the user to view seasonal gallery of
-//                 plants after the user logs into their account. The user can also
-//                 add comments to the blog once they are logged in as well as
-//                 deleting their comments.{" "}
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-//       </section>
-//     </div>
-//   );
-// }
-
-// export default Portfolio;
