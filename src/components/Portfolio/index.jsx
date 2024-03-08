@@ -5,14 +5,16 @@ function Portfolio() {
 
 export default Portfolio;
 
-// import React from "react";
-// import homeBrewImage from "../../assets/small/HomeBrew.png";
-// import summerPunchImage from "../../assets/small/Summer_Punch.png";
-// import weatherDashImage from "../../assets/small/Weather_Dash.png";
-// import noteTakerImage from "../../assets/small/NoteTaker.png";
-// import twilightImage from "../../assets/small/Twilight_Ristorante.png";
-// import flowerImage from "../../assets/small/Sweet-Pea-Flowers.png";
-// import sphereImage from "../../assets/small/Sphere.png";
+import React from "react";
+import employeeTracker from "../../assets/projectIMGs/employee_tracker.jpg";
+import eCommerce from "../../assets/projectIMGs/orm_e_commerce.png";
+import passWordGen from "../../assets/projectIMGs/PsswrdGnrtr.png";
+import readMeGen from "../../assets/projectIMGs/readme_generator.png";
+import sillyAPI from "../../assets/projectIMGs/SillyAPI.jpg";
+import socialNetwork from "../../assets/projectIMGs/social_network_api.png";
+import weatherDash1 from "../../assets/projectIMGs/weather_dashboard1.png";
+import weatherDash2 from "../../assets/projectIMGs/weather_dashboard2.png";
+import workDayScheduler from "../../assets/projectIMGs/work_day_scheduler.jpg";
 
 // function Portfolio() {
 //   return (
