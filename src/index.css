@@ -342,12 +342,21 @@ header nav ul li a:hover {
   gap: 1px; /* Adjust the gap to control the spacing between images */
 }
 
+.job-container {
+  position: relative;
+  height: 0;
+  padding-top: 100%;
+}
+
 .job {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  /* Set height equal to width */
+  height: 0;
+  padding-top: 100%; /* Maintain aspect ratio */
 }
 
 .job a {
@@ -390,73 +399,12 @@ header nav ul li a:hover {
   opacity: 1;
 }
 
-.job:nth-child(even) {
-  border-bottom: 1px solid #d5f2ea;
-}
-
-.job:last-child {
-  border-bottom: none;
-}
-
-.job-text h4 {
-  font-size: 26px;
-  line-height: 1.5;
-  color: #75bfb2;
-}
-
-.job-info {
-  flex: 2 70%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.job-img {
-  flex: 1 12%;
-  margin-right: 250px;
-  opacity: 0.5;
-  filter: alpha(opacity=40);
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-}
-
-.job-img img {
-  max-width: 200%;
-  max-height: 100%;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-}
-
-.job-img:hover {
-  opacity: 1;
-  /*    transition: .5s ease;*/
-  filter: alpha(opacity=100);
-  transform: scale(1.01);
-}
-
-.job-img img:hover {
-  /*    transition: .5s ease-in-out;*/
-  border: 5px solid #acf2e5;
-  transform: scale(1.1);
-}
-
-.job-img img:hover::after {
-  transition: 0.5s ease;
-}
-
-.job-text {
-  flex: 12;
-}
-
-.job-text p {
-  color: #d5f2ea;
-  font-size: 18px;
+.job-img-container img {
+  width: 50%; /* Adjust the width as needed */
+  object-fit: cover;
+  border-radius: 10px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition */
 }
 
 /*End Jobs section*/
