@@ -11,182 +11,132 @@ import workDayScheduler from "../../assets/images/projectIMGs/work_day_scheduler
 
 function Portfolio() {
   return (
-    <div>
+    <div className="portfolio">
       <section id="work" className="jobs">
-        <div className="flex-row">
-          <h2 className="section-title secondary-border">Work</h2>
-        </div>
-
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img-container">
-              <a href="https://github.com/TheOarsman/SQL_Employee_Tracker">
-                {" "}
-                <img
-                  src={employeeTracker}
-                  alt="Employee Tracker"
-                  className="my-2 project-img"
-                />
-              </a>
-            </div>
-            <div className="job-details">
-              <h4>Employee Tracker</h4>
-              <p>
-                A SQL application, allowing for tracking of employees within a
-                company.{" "}
-              </p>
-            </div>
+        <div className="grid-container">
+          <div className="job">
+            <a href="https://github.com/TheOarsman/SQL_Employee_Tracker">
+              {" "}
+              <img src={employeeTracker} alt="Employee Tracker" />
+              <div className="job-details">
+                <h4>Employee Tracker</h4>
+                <p>
+                  A SQL application, allowing for tracking of employeeswithin a
+                  company.{" "}
+                </p>
+              </div>
+            </a>
           </div>
-        </div>
 
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img-container">
-              <a href="https://github.com/TheOarsman/ORM-E-Commerce-Back-End">
-                {" "}
-                <img
-                  src={eCommerce}
-                  alt="E-Commerce"
-                  className="my-2 project-img"
-                />
-              </a>
-            </div>
-            <div className="job-details">
-              <h4>E-Commerce: Back-End ORM</h4>
-              <p>
-                A back-end ORM for an E-Commerce website. Adding fluff because I
-                need to for some reason.{" "}
-              </p>
-            </div>
+          <div className="job">
+            <a href="https://github.com/TheOarsman/ORM-E-Commerce-Back-End">
+              {" "}
+              <img src={eCommerce} alt="E-Commerce" />
+              <div className="job-details">
+                <h4>E-Commerce: Back-End ORM</h4>
+                <p>
+                  A back-end ORM for an E-Commerce website. Adding fluff because
+                  I need to for some reason.{" "}
+                </p>
+              </div>
+            </a>
           </div>
-        </div>
 
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img-container">
-              <a href="https://github.com/TheOarsman/Rodnam-Proswasd-Gnereotar">
-                {" "}
-                <img
-                  src={passWordGen}
-                  alt="Password Generator"
-                  className="my-2 project-img"
-                />
-              </a>
-            </div>
-            <div className="job-details">
-              <h4>Password Generator</h4>
-              <p>
-                A password generator for making a random password. Adding more
-                filler here.{" "}
-              </p>
-            </div>
+          <div className="job">
+            <a href="https://github.com/TheOarsman/Rodnam-Proswasd-Gnereotar">
+              {" "}
+              <img src={passWordGen} alt="Password Generator" />
+              <div className="job-details">
+                <h4>Password Generator</h4>
+                <p>
+                  A password generator for making a random password. Adding more
+                  filler here.{" "}
+                </p>
+              </div>
+            </a>
           </div>
-        </div>
 
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img-container">
-              <a href="https://github.com/TheOarsman/README-Generator">
-                {" "}
-                <img
-                  src={readMeGen}
-                  alt="Readme Generator"
-                  className="my-2 project-img"
-                />
-              </a>
-            </div>
-            <div className="job-details">
-              <h4>README Generator</h4>
-              <p>
-                A Markdown file, that generates a professional README.md file.{" "}
-              </p>
-            </div>
+          <div className="job">
+            <a href="https://github.com/TheOarsman/README-Generator">
+              {" "}
+              <img src={readMeGen} alt="Readme Generator" />
+              <div className="job-details">
+                <h4>README Generator</h4>
+                <p>
+                  A Markdown file, that generates a professional README.md file.{" "}
+                </p>
+              </div>
+            </a>
           </div>
-        </div>
 
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img-container">
-              <a href="https://github.com/TheOarsman/slAPI">
-                {" "}
-                <img
-                  src={sillyAPI}
-                  alt="Silly API"
-                  className="my-2 project-img"
-                />
-              </a>
-            </div>
-            <div className="job-details">
-              <h4>Slappi API</h4>
-              <p>
-                A website for all things wonky and silly, that coders and
-                programmers can have fun!{" "}
-              </p>
-            </div>
+          <div className="job">
+            <a href="https://github.com/TheOarsman/slAPI">
+              {" "}
+              <img src={sillyAPI} alt="Silly API" />
+              <div className="job-details">
+                <h4>Slappi API</h4>
+                <p>
+                  A website for all things wonky and silly, that coders and
+                  programmers can have fun!{" "}
+                </p>
+              </div>
+            </a>
           </div>
-        </div>
 
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img-container">
-              <a href="https://github.com/TheOarsman/Social-Network-API">
-                {" "}
-                <img
-                  src={socialNetwork}
-                  alt="Social Network"
-                  className="my-2 project-img"
-                />
-              </a>
-            </div>
-            <div className="job-details">
-              <h4>Social Network</h4>
-              <p>
-                An API for a social network site It does things and other stuff.{" "}
-              </p>
-            </div>
+          <div className="job">
+            <a href="https://github.com/TheOarsman/Social-Network-API">
+              {" "}
+              <img src={socialNetwork} alt="Social Network" />
+              <div className="job-details">
+                <h4>Social Network</h4>
+                <p>
+                  An API for a social network site It does things and other
+                  stuff.{" "}
+                </p>
+              </div>
+            </a>
           </div>
-        </div>
 
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img-container">
-              <a href="https://theoarsman.github.io/Weather_Dashboard_SS_API/">
-                {" "}
-                <img
-                  src={weatherDash1}
-                  alt="Weather Dashboard"
-                  className="my-2 project-img"
-                />
-              </a>
-            </div>
-            <div className="job-details">
-              <h4>Weather Dashboard</h4>
-              <p>
-                A Weather Dashboard (site) for getting the weather in any US
-                city, along with a 5-day forecast!{" "}
-              </p>
-            </div>
+          <div className="job">
+            <a href="https://theoarsman.github.io/Weather_Dashboard_SS_API/">
+              {" "}
+              <img src={weatherDash1} alt="Weather Dashboard" />
+              <div className="job-details">
+                <h4>Weather Dashboard</h4>
+                <p>
+                  A Weather Dashboard (site) for getting the weather in any US
+                  city, along with a 5-day forecast!{" "}
+                </p>
+              </div>
+            </a>
           </div>
-        </div>
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img-container">
-              <a href="https://theoarsman.github.io/Work-Day-Scheduler/">
-                {" "}
-                <img
-                  src={workDayScheduler}
-                  alt="Workday Scheduler"
-                  className="my-2 project-img"
-                />
-              </a>
-            </div>
-            <div className="job-details">
-              <h4>Workday Scheduler</h4>
-              <p>
-                A scheduler/planner for map out your day. Give current times,
-                and allows you to schedule events during the day.{" "}
-              </p>
-            </div>
+
+          <div className="job">
+            <a href="https://theoarsman.github.io/Weather_Dashboard_SS_API/">
+              {" "}
+              <img src={weatherDash2} alt="Weather Dashboard" />
+              <div className="job-details">
+                <h4>Weather Dashboard</h4>
+                <p>
+                  A Weather Dashboard (site) for getting the weather in any US
+                  city, along with a 5-day forecast!{" "}
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div className="job">
+            <a href="https://theoarsman.github.io/Work-Day-Scheduler/">
+              {" "}
+              <img src={workDayScheduler} alt="Workday Scheduler" />
+              <div className="job-details">
+                <h4>Workday Scheduler</h4>
+                <p>
+                  A scheduler/planner for map out your day. Give current times,
+                  and allows you to schedule events during the day.{" "}
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </section>

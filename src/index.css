@@ -333,57 +333,61 @@ header nav ul li a:hover {
   background-image: url("../src/assets/images/others/yellowPics.jpg");
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  background-attachment: fixed;
-  background-position: 80%;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px; /* Adjust the gap to control the spacing between images */
 }
 
 .job {
-  margin: 10px;
-  width: calc(33.33% - 20px); /* 3 projects per row */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.job a {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
-.project-img {
-  width: 65%;
-  height: 65%;
+.job img {
+  max-width: 100%;
+  max-height: 100%;
   object-fit: cover;
-  border-radius: 10px;
-  opacity: 0; /* Initially hidden */
-  transition: opacity 0.3s ease; /* Smooth transition */
+  transition: transform 0.3s ease;
 }
 
-.job-img-container {
-  width: 200px; /* Set the size of the container */
-  height: 200px; /* Square dimensions */
-  overflow: hidden; /* Hide overflow */
-  position: relative; /* Position for hover effect */
-}
-
-.job-img-container:hover .project-img {
-  opacity: 1; /* Reveal image on hover */
+.job:hover img {
+  transform: scale(1.1); /* Adjust the scale factor for hover effect */
 }
 
 .job-details {
   position: absolute;
   top: 0;
-  left: 100%;
-  width: 300px; /* Adjust as needed */
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-  padding: 10px;
-  border-radius: 10px;
-  display: none; /* Initially hidden */
-  transition: all 0.3s ease; /* Smooth transition */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-.job-img-container:hover .job-details {
-  display: block; /* Show details on hover */
+.job:hover .job-details {
+  opacity: 1;
 }
 
 .job:nth-child(even) {
