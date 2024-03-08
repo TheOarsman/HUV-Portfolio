@@ -105,7 +105,7 @@ header nav ul li a:hover {
 
 /* Hero Style Start */
 .hero {
-  background-image: url("../src/assets/images/others/yelloiwPics.jpg");
+  background-image: url("../src/assets/images/others/yellowPics.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -330,7 +330,15 @@ header nav ul li a:hover {
 /*Start Jobs section*/
 
 .jobs {
-  background: #0e5259;
+  background-image: url("../src/assets/images/others/yellowPics.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 .job {
@@ -576,9 +584,10 @@ footer a:hover {
 /* end styles to <footer> */
 
 /* extra titles stylings */
+/* also settings for Resume (need to change/add) */
 .section-title {
   font-size: 48px;
-  color: #a1402c;
+  color: #e6b049;
   border-bottom: 3px solid;
   padding-top: 20px;
   padding-bottom: 20px;
