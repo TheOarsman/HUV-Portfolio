@@ -29,7 +29,7 @@ function Portfolio() {
                 />
               </a>
             </div>
-            <div className="job-text">
+            <div className="job-details">
               <h4>Employee Tracker</h4>
               <p>
                 A SQL application, allowing for tracking of employees within a
@@ -51,7 +51,7 @@ function Portfolio() {
                 />
               </a>
             </div>
-            <div className="job-text">
+            <div className="job-details">
               <h4>E-Commerce: Back-End ORM</h4>
               <p>
                 A back-end ORM for an E-Commerce website. Adding fluff because I
@@ -73,7 +73,7 @@ function Portfolio() {
                 />
               </a>
             </div>
-            <div className="job-text">
+            <div className="job-details">
               <h4>Password Generator</h4>
               <p>
                 A password generator for making a random password. Adding more
@@ -95,7 +95,7 @@ function Portfolio() {
                 />
               </a>
             </div>
-            <div className="job-text">
+            <div className="job-details">
               <h4>README Generator</h4>
               <p>
                 A Markdown file, that generates a professional README.md file.{" "}
@@ -116,7 +116,7 @@ function Portfolio() {
                 />
               </a>
             </div>
-            <div className="job-text">
+            <div className="job-details">
               <h4>Slappi API</h4>
               <p>
                 A website for all things wonky and silly, that coders and
@@ -138,7 +138,7 @@ function Portfolio() {
                 />
               </a>
             </div>
-            <div className="job-text">
+            <div className="job-details">
               <h4>Social Network</h4>
               <p>
                 An API for a social network site It does things and other stuff.{" "}
@@ -159,7 +159,7 @@ function Portfolio() {
                 />
               </a>
             </div>
-            <div className="job-text">
+            <div className="job-details">
               <h4>Weather Dashboard</h4>
               <p>
                 A Weather Dashboard (site) for getting the weather in any US
@@ -180,7 +180,7 @@ function Portfolio() {
                 />
               </a>
             </div>
-            <div className="job-text">
+            <div className="job-details">
               <h4>Workday Scheduler</h4>
               <p>
                 A scheduler/planner for map out your day. Give current times,
