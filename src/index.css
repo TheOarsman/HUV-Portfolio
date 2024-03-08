@@ -232,6 +232,7 @@ header nav ul li a:hover {
 
 .contact h2 {
   color: #f2e3d5;
+  padding-top: 1.5rem;
 }
 
 .contact-info {
@@ -242,6 +243,7 @@ header nav ul li a:hover {
 
 .contact-form {
   padding-right: 10%;
+  padding-bottom: 1.5rem;
 }
 
 .contact-form button:hover {
@@ -578,6 +580,7 @@ footer a:hover {
   font-size: 48px;
   color: #a1402c;
   border-bottom: 3px solid;
+  padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
@@ -589,7 +592,7 @@ footer a:hover {
 }
 
 .secondary-border {
-  border-color: #d5f2ea;
+  border-color: #e6b049;
 }
 
 label {
