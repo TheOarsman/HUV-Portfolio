@@ -19,14 +19,13 @@ function Portfolio() {
 
         <div className="job">
           <div className="job-info">
-            <div className="job-img">
+            <div className="job-img-container">
               <a href="https://github.com/TheOarsman/SQL_Employee_Tracker">
                 {" "}
                 <img
                   src={employeeTracker}
-                  className="my-2"
-                  style={{ width: "100%" }}
                   alt="Employee Tracker"
+                  className="my-2 project-img"
                 />
               </a>
             </div>
@@ -42,14 +41,13 @@ function Portfolio() {
 
         <div className="job">
           <div className="job-info">
-            <div className="job-img">
+            <div className="job-img-container">
               <a href="https://github.com/TheOarsman/ORM-E-Commerce-Back-End">
                 {" "}
                 <img
                   src={eCommerce}
-                  className="my-2"
-                  style={{ width: "100%" }}
                   alt="E-Commerce"
+                  className="my-2 project-img"
                 />
               </a>
             </div>
@@ -65,14 +63,13 @@ function Portfolio() {
 
         <div className="job">
           <div className="job-info">
-            <div className="job-img">
+            <div className="job-img-container">
               <a href="https://github.com/TheOarsman/Rodnam-Proswasd-Gnereotar">
                 {" "}
                 <img
                   src={passWordGen}
-                  className="my-2"
-                  style={{ width: "100%" }}
                   alt="Password Generator"
+                  className="my-2 project-img"
                 />
               </a>
             </div>
@@ -88,14 +85,13 @@ function Portfolio() {
 
         <div className="job">
           <div className="job-info">
-            <div className="job-img">
+            <div className="job-img-container">
               <a href="https://github.com/TheOarsman/README-Generator">
                 {" "}
                 <img
                   src={readMeGen}
-                  className="my-2"
-                  style={{ width: "100%" }}
                   alt="Readme Generator"
+                  className="my-2 project-img"
                 />
               </a>
             </div>
@@ -110,14 +106,13 @@ function Portfolio() {
 
         <div className="job">
           <div className="job-info">
-            <div className="job-img">
+            <div className="job-img-container">
               <a href="https://github.com/TheOarsman/slAPI">
                 {" "}
                 <img
                   src={sillyAPI}
-                  className="my-2"
-                  style={{ width: "100%" }}
                   alt="Silly API"
+                  className="my-2 project-img"
                 />
               </a>
             </div>
@@ -133,14 +128,13 @@ function Portfolio() {
 
         <div className="job">
           <div className="job-info">
-            <div className="job-img">
+            <div className="job-img-container">
               <a href="https://github.com/TheOarsman/Social-Network-API">
                 {" "}
                 <img
                   src={socialNetwork}
-                  className="my-2"
-                  style={{ width: "100%" }}
                   alt="Social Network"
+                  className="my-2 project-img"
                 />
               </a>
             </div>
@@ -155,14 +149,13 @@ function Portfolio() {
 
         <div className="job">
           <div className="job-info">
-            <div className="job-img">
+            <div className="job-img-container">
               <a href="https://theoarsman.github.io/Weather_Dashboard_SS_API/">
                 {" "}
                 <img
                   src={weatherDash1}
-                  className="my-2"
-                  style={{ width: "100%" }}
                   alt="Weather Dashboard"
+                  className="my-2 project-img"
                 />
               </a>
             </div>
@@ -177,14 +170,13 @@ function Portfolio() {
         </div>
         <div className="job">
           <div className="job-info">
-            <div className="job-img">
+            <div className="job-img-container">
               <a href="https://theoarsman.github.io/Work-Day-Scheduler/">
                 {" "}
                 <img
                   src={workDayScheduler}
-                  className="my-2"
-                  style={{ width: "100%" }}
                   alt="Workday Scheduler"
+                  className="my-2 project-img"
                 />
               </a>
             </div>

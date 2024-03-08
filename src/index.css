@@ -342,14 +342,32 @@ header nav ul li a:hover {
 }
 
 .job {
-  margin: 50px auto;
-  padding-bottom: 50px;
-  width: 80%;
+  margin: 10px;
+  width: calc(33.33% - 20px); /* 3 projects per row */
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #d5f2ea;
+  text-align: center;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.job-img-container {
+  width: 200px; /* Set the size of the container */
+  height: 200px; /* Square dimensions */
+  overflow: hidden; /* Hide overflow */
+  position: relative; /* Position for hover effect */
+}
+
+.job-img-container:hover .project-img {
+  opacity: 1; /* Reveal image on hover */
 }
 
 .job:nth-child(even) {
