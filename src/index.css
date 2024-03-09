@@ -354,11 +354,10 @@ header nav ul li a:hover {
 .job {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   overflow: hidden;
-  /* Set height equal to width */
-  height: 0;
+  height: 0; /* Adjust as needed */
   padding-top: 100%; /* Maintain aspect ratio */
 }
 
@@ -373,8 +372,8 @@ header nav ul li a:hover {
 
 .job img {
   max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
+  /* max-height: 100%; */
+  object-fit: auto;
   transition: transform 0.3s ease;
 }
 
@@ -385,8 +384,8 @@ header nav ul li a:hover {
 .job-details {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: -300px;
+  width: 300px;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.8);
   display: flex;
@@ -399,6 +398,7 @@ header nav ul li a:hover {
 }
 
 .job:hover .job-details {
+  left: 50%;
   opacity: 1;
 }
 
@@ -681,7 +681,7 @@ label {
   }
 
   .job-img {
-    margin-right: 100px;
+    flex: 1;
   }
 
   .job-text {
