@@ -399,14 +399,16 @@ header nav ul li a:hover {
 
 .job-details-box {
   position: absolute;
-  top: 50%;
+  top: 92.5%;
   left: 18%;
   transform: translate(-50%, -50%);
   width: 300px; /* Adjust width as needed */
-  background-color: rgba(213, 12, 12, 0.8);
+  background-color: #e6b049;
+  color: #044a52;
   padding: 20px;
   opacity: 1;
   transition: all 0.3s ease;
+  border-radius: 10px; /* radius rounding */
 }
 
 /* Show the job details box when a job is selected */
