@@ -132,14 +132,14 @@ header nav ul li a:hover {
 /* Hero Style End */
 
 /* hero-cta start */
-.hero-cta {
+/* .hero-cta {
   width: 35%;
   text-align: center;
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
   line-height: 1.2;
-}
+} */
 
 /* styling for "welcome" text */
 .hero-cta-welcome {
@@ -332,14 +332,17 @@ header nav ul li a:hover {
 .jobs {
   background-image: url("../src/assets/images/others/yellowPics.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  padding: 20px;
+  padding: 175px;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px; /* Adjust the gap to control the spacing between images */
+  max-width: 375px; /* Adjust the maximum width of the grid (photo blocks for projects)*/
+  margin: 0 auto; /* Center the grid horizontally */
 }
 
 .job-container {
@@ -371,7 +374,7 @@ header nav ul li a:hover {
 .job img {
   max-width: 100%;
   max-height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 
