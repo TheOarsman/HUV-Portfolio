@@ -157,6 +157,14 @@ function Portfolio() {
           </div>
         </div>
       </section>
+      {/* Job details box outside grid container */}
+      {selectedJob !== null && (
+        <div className="job-details-box">
+          {/* This will be populated dynamically based on hover */}
+          <h4>{jobs[selectedJob].name}</h4>
+          <p>{jobs[selectedJob].description}</p>
+        </div>
+      )}
     </div>
   );
 }

@@ -397,8 +397,20 @@ header nav ul li a:hover {
   transition: opacity 0.3s ease;
 }
 
+.job-details-box {
+  position: absolute;
+  top: 50%;
+  left: 1px; /* Offscreen initially */
+  transform: translateY(-50%);
+  width: 300px; /* Adjust width as needed */
+  background-color: rgba(213, 12, 12, 0.8);
+  padding: 20px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
 .job:hover .job-details {
-  left: 50%;
+  left: 100%;
   opacity: 1;
 }
 
