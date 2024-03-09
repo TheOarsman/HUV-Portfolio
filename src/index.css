@@ -330,7 +330,7 @@ header nav ul li a:hover {
 /*Start Jobs section*/
 
 .jobs {
-  background-image: url("../src/assets/images/others/yellowPics.jpg");
+  background-image: url("../src/assets/images/others/lamp.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -341,7 +341,7 @@ header nav ul li a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px; /* Adjust the gap to control the spacing between images */
-  max-width: 375px; /* Adjust the maximum width of the grid (photo blocks for projects)*/
+  max-width: 475px; /* Adjust the maximum width of the grid (photo blocks for projects)*/
   margin: 0 auto; /* Center the grid horizontally */
 }
 
@@ -403,8 +403,8 @@ header nav ul li a:hover {
   left: 18%;
   transform: translate(-50%, -50%);
   width: 300px; /* Adjust width as needed */
-  background-color: #e6b049;
-  color: #044a52;
+  background-color: #0a828f;
+  color: #e6b049;
   padding: 20px;
   opacity: 1;
   transition: all 0.3s ease;
