@@ -44,6 +44,11 @@ function Portfolio() {
                 roles, and employees, empowering business owners to organize and
                 plan their business effectively.{" "}
               </p>
+              <br></br>
+              <a href="https://github.com/TheOarsman/SQL_Employee_Tracker">
+                {" "}
+                GitHub Repository
+              </a>
             </div>
           </div>
         </div>
@@ -73,7 +78,11 @@ function Portfolio() {
                 e-commerce platform, enabling smooth data handling and efficient
                 communication between the frontend and backend components.{" "}
               </p>
-              <a href="https://youtu.be/XMI2PqBvzY8"> Video Demonstration</a>
+              <br></br>
+              <a href="https://github.com/TheOarsman/ORM-E-Commerce-Back-End">
+                {" "}
+                GitHub Repository
+              </a>
             </div>
           </div>
         </div>
@@ -103,6 +112,11 @@ function Portfolio() {
                 generates a random password tailored to the user's
                 specifications.
               </p>
+              <br></br>
+              <a href="https://github.com/TheOarsman/Rodnam-Proswasd-Gnereotar">
+                {" "}
+                GitHub Repository
+              </a>
             </div>
           </div>
         </div>
@@ -131,6 +145,11 @@ function Portfolio() {
                 them to create professional documentation for their projects
                 with ease.{" "}
               </p>
+              <br></br>
+              <a href="https://github.com/TheOarsman/README-Generator">
+                {" "}
+                GitHub Repository
+              </a>
             </div>
           </div>
         </div>
@@ -156,6 +175,11 @@ function Portfolio() {
                 A website for all things wonky and silly, that coders and
                 programmers can have fun!{" "}
               </p>
+              <br></br>
+              <a href="https://github.com/TheOarsman/ORM-E-Commerce-Back-End">
+                {" "}
+                GitHub Repository
+              </a>
             </div>
           </div>
         </div>
@@ -185,6 +209,11 @@ function Portfolio() {
                 and MongoDB for the database, it utilizes Mongoose ODM for
                 seamless interaction and schema-based modeling in Node.js.{" "}
               </p>
+              <br></br>
+              <a href="https://github.com/TheOarsman/Social-Network-API">
+                {" "}
+                GitHub Repository
+              </a>
             </div>
           </div>
         </div>
@@ -215,6 +244,11 @@ function Portfolio() {
                 storage, ensuring that user preferences and settings remain
                 intact across sessions.{" "}
               </p>
+              <br></br>
+              <a href="https://github.com/TheOarsman/Weather_Dashboard_SS_API">
+                {" "}
+                GitHub Repository
+              </a>
             </div>
           </div>
         </div>
@@ -245,6 +279,11 @@ function Portfolio() {
                 entails the need to add important events to a daily planner for
                 efficient time management.{" "}
               </p>
+              <br></br>
+              <a href="https://github.com/TheOarsman/Work-Day-Scheduler">
+                {" "}
+                GitHub Repository
+              </a>
             </div>
           </div>
         </div>
