@@ -455,7 +455,7 @@ header nav ul li a:hover {
 .article {
   margin: 10px;
   margin-bottom: 1em;
-  background-color: #b4d9cb;
+  background-color: #328c83;
 }
 
 .resume-body img {
@@ -479,7 +479,7 @@ header nav ul li a:hover {
 }
 
 .download-logo:hover {
-  color: #328c83;
+  color: #a1402c;
   opacity: 0.5;
   transition: 0.5s ease;
 }
@@ -501,15 +501,16 @@ header nav ul li a:hover {
 } */
 
 .column-title {
-  color: #285950;
+  color: white;
   font-size: 25px;
   font-weight: bold;
+  padding: 10px;
 }
 
 .column-text {
-  color: #285950;
+  color: white;
   font-size: 20px;
-  padding: 5px;
+  padding: 10px;
 }
 
 .column-text ul li {
