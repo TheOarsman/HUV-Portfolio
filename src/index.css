@@ -237,6 +237,7 @@ header nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  color: #f2e3d5;
 }
 
 .contact-form {
@@ -260,7 +261,7 @@ header nav ul li a:hover {
   margin-bottom: 15px;
   margin-top: 5px;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: #f2e3d5;
 }
 
 .contact-form input:focus,
@@ -348,10 +349,10 @@ header nav ul li a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #e6b049;
+  border-bottom: 1px solid #344444;
 }
 .job:nth-child(even) {
-  border-bottom: 1px solid #e6b049;
+  border-bottom: 1px solid #344444;
 }
 .job:last-child {
   border-bottom: none;
@@ -591,7 +592,7 @@ footer a:hover {
 }
 
 .secondary-border {
-  border-color: #0e5259;
+  border-color: #e6b049;
 }
 
 label {

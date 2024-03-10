@@ -63,7 +63,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://github.com/TheOarsman/Rodnam-Proswasd-Gnereotar">
+              <a href="https://theoarsman.github.io/Rodnam-Proswasd-Gnereotar/">
                 {" "}
                 <img
                   src={passWordGen}
