@@ -27,27 +27,31 @@ function Contact() {
     }
   };
 
-  const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
+  const handleFormSubmit = async (e) => {
     e.preventDefault();
 
-    // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !userName) {
-      setErrorMessage("Email or Name is invalid");
-      // We want to exit out of this code block if something is wrong so that the user can correct it
-      return;
-      // Then we check to see if the message is not valid. If so, we set an error message regarding the message.
-    }
+    try {
+      const response = await fetch("/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name: userName, email, message }),
+      });
 
-    if (!message) {
-      setErrorMessage(`Message is required.`);
-      return;
-    }
+      if (!response.ok) {
+        throw new Error("Failed to send email");
+      }
 
-    // If everything goes according to plan, we want to clear out the input after a successful submission.
-    setUserName("");
-    setMessage("");
-    setEmail("");
+      setUserName("");
+      setMessage("");
+      setEmail("");
+      setErrorMessage("");
+      alert("Email sent successfully!");
+    } catch (error) {
+      console.error("Error sending email:", error);
+      setErrorMessage("Failed to send email");
+    }
   };
 
   return (
