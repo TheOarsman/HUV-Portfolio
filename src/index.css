@@ -382,7 +382,7 @@ header nav ul li a:hover {
 .job-img img {
   max-width: 200%;
   max-height: 100%;
-  margin-left: 50px;
+  margin-left: 25px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -410,6 +410,15 @@ header nav ul li a:hover {
 .job-text p {
   color: #a1402c;
   font-size: 18px;
+}
+
+.img-description {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; /* Add this line to center the text horizontally */
+  color: black;
+  margin-left: 50px;
 }
 
 /*End Jobs section*/

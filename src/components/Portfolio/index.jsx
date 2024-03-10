@@ -28,12 +28,21 @@ function Portfolio() {
                   alt="Employee Tracker"
                 />
               </a>
+              <div>
+                <h6 class="img-description">Video Demonstration</h6>
+              </div>
             </div>
             <div className="job-text">
               <h4>Employee Tracker</h4>
               <p>
-                A SQL application, allowing for tracking of employees within a
-                company.{" "}
+                This command-line application serves as a Content Management
+                System (CMS) designed for managing a company's employee database
+                efficiently. With the integration of the Inquirer and MySQL2
+                packages, users, particularly business owners, can seamlessly
+                view and interact with information stored in the database. Its
+                primary features include the ability to manage departments,
+                roles, and employees, empowering business owners to organize and
+                plan their business effectively.{" "}
               </p>
             </div>
           </div>
@@ -54,9 +63,14 @@ function Portfolio() {
             <div className="job-text">
               <h4>E-Commerce: Back-End ORM</h4>
               <p>
-                A back-end ORM for an E-Commerce website. Adding fluff because I
-                need to for some reason.{" "}
+                This demonstration illustrates the fundamental architecture of
+                an e-commerce site. The backend was configured with a functional
+                Express.js API, seamlessly integrated with Sequelize to interact
+                with a MySQL database. This setup forms the backbone of the
+                e-commerce platform, enabling smooth data handling and efficient
+                communication between the frontend and backend components.{" "}
               </p>
+              <a href="https://youtu.be/XMI2PqBvzY8"> Video Demonstration</a>
             </div>
           </div>
         </div>
@@ -76,8 +90,12 @@ function Portfolio() {
             <div className="job-text">
               <h4>Password Generator</h4>
               <p>
-                A password generator for making a random password. Adding more
-                filler here.{" "}
+                This page showcases a Random Password Generator. The generator
+                prompts users to specify their preferences for password
+                criteria, including length, special characters, upper/lower case
+                letters, and numerics. Based on these selections, the tool
+                generates a random password tailored to the user's
+                specifications.
               </p>
             </div>
           </div>
@@ -98,7 +116,11 @@ function Portfolio() {
             <div className="job-text">
               <h4>README Generator</h4>
               <p>
-                A Markdown file, that generates a professional README.md file.{" "}
+                This command-line app swiftly creates professional README.md
+                files using the Inquirer Package. It's designed for developers
+                who need to generate READMEs quickly and efficiently, enabling
+                them to create professional documentation for their projects
+                with ease.{" "}
               </p>
             </div>
           </div>
@@ -141,7 +163,12 @@ function Portfolio() {
             <div className="job-text">
               <h4>Social Network</h4>
               <p>
-                An API for a social network site It does things and other stuff.{" "}
+                This NoSQL Social Network API application provides
+                functionalities for users to interact within a social network.
+                It enables users to share thoughts, react to friends' thoughts,
+                and manage friend lists. Developed with Express.js for routing
+                and MongoDB for the database, it utilizes Mongoose ODM for
+                seamless interaction and schema-based modeling in Node.js.{" "}
               </p>
             </div>
           </div>
@@ -162,8 +189,13 @@ function Portfolio() {
             <div className="job-text">
               <h4>Weather Dashboard</h4>
               <p>
-                A Weather Dashboard (site) for getting the weather in any US
-                city, along with a 5-day forecast!{" "}
+                This browser-based weather dashboard offers developers seamless
+                access to weather data for cities through third-party APIs. By
+                harnessing the 5 Day Weather Forecast, it dynamically updates
+                HTML and CSS to deliver precise and current weather information
+                to users. Moreover, it employs localStorage for persistent data
+                storage, ensuring that user preferences and settings remain
+                intact across sessions.{" "}
               </p>
             </div>
           </div>
@@ -184,8 +216,13 @@ function Portfolio() {
             <div className="job-text">
               <h4>Workday Scheduler</h4>
               <p>
-                A scheduler/planner for map out your day. Give current times,
-                and allows you to schedule events during the day.{" "}
+                This is a simple calendar application tailored for employees to
+                manage their daily schedules effectively. The application allows
+                users to save events for each hour of a typical workday
+                (9AM-5PM) by modifying starter code. It leverages the Day.js
+                library to handle date and time functionalities. The user story
+                entails the need to add important events to a daily planner for
+                efficient time management.{" "}
               </p>
             </div>
           </div>
