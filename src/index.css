@@ -606,6 +606,10 @@ footer a:hover {
   border-color: #0e5259;
 }
 
+.third-border {
+  border-color: #d4ad63;
+}
+
 label {
   font-size: 25px;
 }

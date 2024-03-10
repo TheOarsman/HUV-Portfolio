@@ -53,7 +53,7 @@ function Contact() {
   return (
     <section id="reach-out" className="contact">
       <div className="flex-row">
-        <h2 className="section-title secondary-border">Reach Out</h2>
+        <h2 className="section-title third-border">Reach Out</h2>
       </div>
 
       <div className="contact-info">
