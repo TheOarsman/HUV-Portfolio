@@ -65,7 +65,7 @@ function Portfolio() {
                 />
               </a>
               <div>
-                <h6 class="img-description">Video Demonstration</h6>
+                <h6 className="img-description">Video Demonstration</h6>
               </div>
             </div>
             <div className="job-text">
@@ -265,7 +265,7 @@ function Portfolio() {
                 />
               </a>
               <div>
-                <h6 class="img-description">Interactive Demo</h6>
+                <h6 className="img-description">Interactive Demo</h6>
               </div>
             </div>
             <div className="job-text">
