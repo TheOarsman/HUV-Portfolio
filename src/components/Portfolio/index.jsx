@@ -13,7 +13,7 @@ function Portfolio() {
   return (
     <div>
       <section id="work" className="jobs">
-        <div className="flex-row">
+        <div className="work-heading">
           <h2 className="section-title secondary-border">Work</h2>
         </div>
         <div className="job">
