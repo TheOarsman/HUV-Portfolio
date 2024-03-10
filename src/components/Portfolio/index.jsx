@@ -59,6 +59,9 @@ function Portfolio() {
                   alt="E-Commerce"
                 />
               </a>
+              <div>
+                <h6 class="img-description">Video Demonstration</h6>
+              </div>
             </div>
             <div className="job-text">
               <h4>E-Commerce: Back-End ORM</h4>
@@ -86,6 +89,9 @@ function Portfolio() {
                   alt="Password Generator"
                 />
               </a>
+              <div>
+                <h6 class="img-description">Interactive Demo</h6>
+              </div>
             </div>
             <div className="job-text">
               <h4>Password Generator</h4>
@@ -112,6 +118,9 @@ function Portfolio() {
                   alt="Readme Generator"
                 />
               </a>
+              <div>
+                <h6 class="img-description">Video Demonstration</h6>
+              </div>
             </div>
             <div className="job-text">
               <h4>README Generator</h4>
@@ -137,6 +146,9 @@ function Portfolio() {
                   alt="Silly API"
                 />
               </a>
+              <div>
+                <h6 class="img-description">Interactive Demo</h6>
+              </div>
             </div>
             <div className="job-text">
               <h4>Slappi API</h4>
@@ -159,6 +171,9 @@ function Portfolio() {
                   alt="Social Network"
                 />
               </a>
+              <div>
+                <h6 class="img-description">Video Demonstration</h6>
+              </div>
             </div>
             <div className="job-text">
               <h4>Social Network</h4>
@@ -185,6 +200,9 @@ function Portfolio() {
                   alt="Weather Dashboard"
                 />
               </a>
+              <div>
+                <h6 class="img-description">Interactive Demo</h6>
+              </div>
             </div>
             <div className="job-text">
               <h4>Weather Dashboard</h4>
@@ -212,6 +230,9 @@ function Portfolio() {
                   alt="Workday Scheduler"
                 />
               </a>
+              <div>
+                <h6 class="img-description">Interactive Demo</h6>
+              </div>
             </div>
             <div className="job-text">
               <h4>Workday Scheduler</h4>

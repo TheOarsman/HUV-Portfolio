@@ -419,6 +419,7 @@ header nav ul li a:hover {
   justify-content: center; /* Add this line to center the text horizontally */
   color: black;
   margin-left: 50px;
+  padding-top: 3%;
 }
 
 /*End Jobs section*/
@@ -602,7 +603,7 @@ footer a:hover {
 }
 
 .secondary-border {
-  border-color: #e6b049;
+  border-color: #0e5259;
 }
 
 label {
