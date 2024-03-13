@@ -15,7 +15,14 @@ function Resume() {
         <div className="flex-row">
           <div className="download-info">
             <div className="download-text">
-              <a href={myResume} className="download-logo" download>
+              /* upload PDF resume to google drive get share-link from google
+              apply share-link to 'href' add target "blank" attribute to a tag
+              <a
+                href={myResume}
+                className="download-logo"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <BsCloudDownload />
               </a>
               <p>

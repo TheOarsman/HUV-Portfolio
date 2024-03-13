@@ -31,17 +31,17 @@ function Contact() {
     e.preventDefault();
 
     try {
-      const response = await fetch("/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ name: userName, email, message }),
-      });
+      // const response = await fetch("/send-email", {
+      //   method: "POST",
+      //   headers: {
+      //     "Content-Type": "application/json",
+      //   },
+      //   body: JSON.stringify({ name: userName, email, message }),
+      // });
 
-      if (!response.ok) {
-        throw new Error("Failed to send email");
-      }
+      // if (!response.ok) {
+      //   throw new Error("Failed to send email");
+      // }
 
       setUserName("");
       setMessage("");
