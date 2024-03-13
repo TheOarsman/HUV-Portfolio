@@ -10,12 +10,23 @@ function Contact() {
   const [userName, setUserName] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [touchedFields, setTouchedFields] = useState({
+    userName: false,
+    email: false,
+    message: false,
+  });
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
+
+    // touched state
+    setTouchedFields((prevTouchedFields) => ({
+      ...prevTouchedFields,
+      [inputType]: true,
+    }));
 
     // Based on the input type, we set the state of either email, username, and message
     if (inputType === "email") {
@@ -29,6 +40,18 @@ function Contact() {
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
+
+    // Check if any required field is empty
+    if (!userName || !email || !message) {
+      setErrorMessage("All fields are required.");
+      return;
+    }
+
+    // Check if email is valid
+    if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email address.");
+      return;
+    }
 
     try {
       // const response = await fetch("/send-email", {
