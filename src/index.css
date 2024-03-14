@@ -466,6 +466,7 @@ header nav ul li a:hover {
   margin: 10px;
   margin-bottom: 0em;
   background-color: #328c83;
+  border-radius: 25px;
 }
 
 .resume-body img {
@@ -522,6 +523,7 @@ header nav ul li a:hover {
   color: white;
   font-size: 20px;
   padding: 10px;
+  margin-bottom: 5%;
 }
 
 .column-text ul li {
@@ -529,7 +531,7 @@ header nav ul li a:hover {
 }
 
 .logo {
-  font-size: 35px;
+  font-size: 30px;
   padding-bottom: 3%;
 }
 
