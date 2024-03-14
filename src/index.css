@@ -465,7 +465,7 @@ header nav ul li a:hover {
 .article {
   margin: 10px;
   margin-bottom: 0em;
-  background-color: #328c83;
+  background-color: #a1402c;
   border-radius: 25px;
 }
 
@@ -512,7 +512,7 @@ header nav ul li a:hover {
 } */
 
 .column-title {
-  color: white;
+  color: #e6b049;
   font-size: 25px;
   font-weight: bold;
   padding: 10px;
@@ -520,7 +520,7 @@ header nav ul li a:hover {
 }
 
 .column-text {
-  color: white;
+  color: #e4c385;
   font-size: 20px;
   padding: 10px;
   margin-bottom: 5%;
@@ -586,7 +586,7 @@ footer a:hover {
 }
 
 .logo:hover {
-  color: #328c83;
+  color: #e6b049;
   opacity: 0.5;
   transition: 0.5s ease;
 }

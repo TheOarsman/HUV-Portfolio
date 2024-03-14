@@ -1,8 +1,10 @@
 import React from "react";
-import myResume from "../../assets/files/Heinz Ulrich V - Resume.pdf";
 import { BsCloudDownload } from "react-icons/bs";
 
 function Resume() {
+  const googleDriveLink =
+    "https://drive.google.com/file/d/1S2KnNVVXLOfdxlDf_OgFcCNJG1Rzt6MI/view?usp=sharing";
+
   return (
     <div>
       <section id="welcome-section" className="download-intro">
@@ -12,13 +14,11 @@ function Resume() {
         <div className="flex-row">
           <div className="download-info">
             <div className="download-text">
-              /* upload PDF resume to google drive get share-link from google
-              apply share-link to 'href' add target "blank" attribute to a tag
               <a
-                href={myResume}
+                href={googleDriveLink}
                 className="download-logo"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <BsCloudDownload />
               </a>
