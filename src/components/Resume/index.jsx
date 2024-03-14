@@ -36,7 +36,7 @@ function Resume() {
       {/* // This is the resume language */}
       <section id="home-page-body" className="resume-body">
         <div className="article column1">
-          <p className="column-title">Font-End Development</p>
+          <p className="column-title">Front-End Development</p>
           <p className="column-text">
             <ul>
               <li className="logo">

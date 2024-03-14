@@ -528,6 +528,11 @@ header nav ul li a:hover {
   list-style: none;
 }
 
+.logo {
+  font-size: 35px;
+  padding-bottom: 3%;
+}
+
 /*End resume section*/
 
 /* start styles to <footer> */
