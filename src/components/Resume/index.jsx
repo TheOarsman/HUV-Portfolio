@@ -120,7 +120,8 @@ function Resume() {
               <li>Jest</li>
               <li>Nodemon</li>
               <li>Git</li>
-              <li>Package.json</li>ß<li>webpack Configuration</li>
+              <li>Package.json</li>
+              <li>webpack Configuration</li>
               <li>Vite Configuration</li>
               <li>dotenv</li>
               <li>Index.js</li>

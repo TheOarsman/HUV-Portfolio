@@ -96,10 +96,11 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background: #d6ad60;
+  background: #dcbc82;
   color: #344444;
-  border-radius: 35px;
+  border-radius: 10px;
   text-shadow: none;
+  padding: 7px 15px;
   /*    transition: .5s ease-in;*/
 }
 
