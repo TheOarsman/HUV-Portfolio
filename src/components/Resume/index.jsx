@@ -23,7 +23,7 @@ function Resume() {
                 <BsCloudDownload />
               </a>
               <p>
-                Please feel free to check out my list of Developer
+                Take a moment to browse through my list of Developer
                 Proficiencies!
               </p>
             </div>
