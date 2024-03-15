@@ -1,5 +1,6 @@
 import React from "react";
 import profileImage from "../../assets/images/others/heinz.jpg";
+
 function About() {
   return (
     <section id="about-me" className="my-5 intro">
