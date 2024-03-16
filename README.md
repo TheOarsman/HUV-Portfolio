@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-[PLACEHOLDER LINK](https://jate-just-another-text-editor-ql4f.onrender.com)<br>
+[Heinz Ulrich V Portfolio](https://heinzulrichv.netlify.app/)<br>
 
 ![About](src/assets/images/webpages/about.png)
 
