@@ -19,7 +19,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://github.com/TheOarsman/SQL_Employee_Tracker">
+              <a href="https://youtu.be/aUWs9hD5Fr8">
                 {" "}
                 <img
                   src={employeeTracker}
@@ -55,7 +55,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://github.com/TheOarsman/ORM-E-Commerce-Back-End">
+              <a href="https://youtu.be/XMI2PqBvzY8">
                 {" "}
                 <img
                   src={eCommerce}
@@ -123,7 +123,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://github.com/TheOarsman/README-Generator">
+              <a href="https://youtu.be/Oqe-QMF2NqM">
                 {" "}
                 <img
                   src={readMeGen}
@@ -186,7 +186,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://github.com/TheOarsman/Social-Network-API">
+              <a href="https://youtu.be/7Mlw5yssC3w">
                 {" "}
                 <img
                   src={socialNetwork}
