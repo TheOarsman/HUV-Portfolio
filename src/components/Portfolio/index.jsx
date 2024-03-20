@@ -44,7 +44,10 @@ function Portfolio() {
                 plan their business effectively.{" "}
               </p>
               <br></br>
-              <a href="https://github.com/TheOarsman/SQL_Employee_Tracker">
+              <a
+                href="https://github.com/TheOarsman/SQL_Employee_Tracker"
+                target="_blank"
+              >
                 {" "}
                 GitHub Repository
               </a>
@@ -54,7 +57,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://youtu.be/XMI2PqBvzY8">
+              <a href="https://youtu.be/XMI2PqBvzY8" target="_blank">
                 {" "}
                 <img
                   src={eCommerce}
@@ -78,7 +81,10 @@ function Portfolio() {
                 communication between the frontend and backend components.{" "}
               </p>
               <br></br>
-              <a href="https://github.com/TheOarsman/ORM-E-Commerce-Back-End">
+              <a
+                href="https://github.com/TheOarsman/ORM-E-Commerce-Back-End"
+                target="_blank"
+              >
                 {" "}
                 GitHub Repository
               </a>
@@ -88,7 +94,10 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://theoarsman.github.io/Rodnam-Proswasd-Gnereotar/">
+              <a
+                href="https://theoarsman.github.io/Rodnam-Proswasd-Gnereotar/"
+                target="_blank"
+              >
                 {" "}
                 <img
                   src={passWordGen}
@@ -112,7 +121,10 @@ function Portfolio() {
                 specifications.
               </p>
               <br></br>
-              <a href="https://github.com/TheOarsman/Rodnam-Proswasd-Gnereotar">
+              <a
+                href="https://github.com/TheOarsman/Rodnam-Proswasd-Gnereotar"
+                target="_blank"
+              >
                 {" "}
                 GitHub Repository
               </a>
@@ -122,7 +134,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://youtu.be/Oqe-QMF2NqM">
+              <a href="https://youtu.be/Oqe-QMF2NqM" target="_blank">
                 {" "}
                 <img
                   src={readMeGen}
@@ -145,7 +157,10 @@ function Portfolio() {
                 with ease.{" "}
               </p>
               <br></br>
-              <a href="https://github.com/TheOarsman/README-Generator">
+              <a
+                href="https://github.com/TheOarsman/README-Generator"
+                target="_blank"
+              >
                 {" "}
                 GitHub Repository
               </a>
@@ -155,7 +170,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://github.com/TheOarsman/slAPI">
+              <a href="https://github.com/TheOarsman/slAPI" target="_blank">
                 {" "}
                 <img
                   src={sillyAPI}
@@ -175,7 +190,10 @@ function Portfolio() {
                 programmers can have fun!{" "}
               </p>
               <br></br>
-              <a href="https://github.com/TheOarsman/ORM-E-Commerce-Back-End">
+              <a
+                href="https://github.com/TheOarsman/ORM-E-Commerce-Back-End"
+                target="_blank"
+              >
                 {" "}
                 GitHub Repository
               </a>
@@ -185,7 +203,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://youtu.be/7Mlw5yssC3w">
+              <a href="https://youtu.be/7Mlw5yssC3w" target="_blank">
                 {" "}
                 <img
                   src={socialNetwork}
@@ -209,7 +227,10 @@ function Portfolio() {
                 seamless interaction and schema-based modeling in Node.js.{" "}
               </p>
               <br></br>
-              <a href="https://github.com/TheOarsman/Social-Network-API">
+              <a
+                href="https://github.com/TheOarsman/Social-Network-API"
+                target="_blank"
+              >
                 {" "}
                 GitHub Repository
               </a>
@@ -219,7 +240,10 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://theoarsman.github.io/Weather_Dashboard_SS_API/">
+              <a
+                href="https://theoarsman.github.io/Weather_Dashboard_SS_API/"
+                target="_blank"
+              >
                 {" "}
                 <img
                   src={weatherDash1}
@@ -244,7 +268,10 @@ function Portfolio() {
                 intact across sessions.{" "}
               </p>
               <br></br>
-              <a href="https://github.com/TheOarsman/Weather_Dashboard_SS_API">
+              <a
+                href="https://github.com/TheOarsman/Weather_Dashboard_SS_API"
+                target="_blank"
+              >
                 {" "}
                 GitHub Repository
               </a>
@@ -254,7 +281,10 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://theoarsman.github.io/Work-Day-Scheduler/">
+              <a
+                href="https://theoarsman.github.io/Work-Day-Scheduler/"
+                target="_blank"
+              >
                 {" "}
                 <img
                   src={workDayScheduler}
@@ -279,7 +309,10 @@ function Portfolio() {
                 efficient time management.{" "}
               </p>
               <br></br>
-              <a href="https://github.com/TheOarsman/Work-Day-Scheduler">
+              <a
+                href="https://github.com/TheOarsman/Work-Day-Scheduler"
+                target="_blank"
+              >
                 {" "}
                 GitHub Repository
               </a>
