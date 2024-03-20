@@ -7,6 +7,7 @@ import sillyAPI from "../../assets/images/projectIMGs/SillyAPI.jpg";
 import socialNetwork from "../../assets/images/projectIMGs/social_network_api.png";
 import weatherDash1 from "../../assets/images/projectIMGs/weather_dashboard1.png";
 import workDayScheduler from "../../assets/images/projectIMGs/work_day_scheduler.jpg";
+import heinzBarronPortfolio from "../../assets/images/projectIMGs/HeinzBarronPortTop.png";
 
 function Portfolio() {
   return (
@@ -273,6 +274,46 @@ function Portfolio() {
               <br></br>
               <a
                 href="https://github.com/TheOarsman/Rodnam-Proswasd-Gnereotar"
+                target="_blank"
+              >
+                {" "}
+                GitHub Repository
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a
+                href="https://theoarsman.github.io/Who-Is-The-Heinz-Barron-/"
+                target="_blank"
+              >
+                {" "}
+                <img
+                  src={heinzBarronPortfolio}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="TheHeinzBarron Portfolio"
+                />
+              </a>
+              <div>
+                <h6 className="img-description">Interactive Demo</h6>
+              </div>
+            </div>
+            <div className="job-text">
+              <h4>The Heinz Barron's 1st Portfolio</h4>
+              <p>
+                Five months ago, I took my first steps into web development with
+                this initial portfolio. It was a journey of discovery, filled
+                with challenges and learning. Today, I stand before you with a
+                new and updated portfolio, showcasing the remarkable progress
+                I've made, thanks to dedication and continuous learning. Dive in
+                and witness the evolution firsthand!"{" "}
+              </p>
+              <br></br>
+              <a
+                href="https://github.com/TheOarsman/Who-Is-The-Heinz-Barron-"
                 target="_blank"
               >
                 {" "}
