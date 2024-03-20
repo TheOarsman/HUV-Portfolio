@@ -170,7 +170,10 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://github.com/TheOarsman/slAPI" target="_blank">
+              <a
+                href="https://desolate-sierra-47851-d89056b73f92.herokuapp.com/"
+                target="_blank"
+              >
                 {" "}
                 <img
                   src={sillyAPI}
