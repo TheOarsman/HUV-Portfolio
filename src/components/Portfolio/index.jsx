@@ -8,6 +8,9 @@ import socialNetwork from "../../assets/images/projectIMGs/social_network_api.pn
 import weatherDash1 from "../../assets/images/projectIMGs/weather_dashboard1.png";
 import workDayScheduler from "../../assets/images/projectIMGs/work_day_scheduler.jpg";
 import heinzBarronPortfolio from "../../assets/images/projectIMGs/HeinzBarronPortTop.png";
+import svgLogoMaker from "../../assets/images/projectIMGs/logoMaker.png";
+import noteTaker from "../../assets/images/projectIMGs/noteTakerHome.png";
+import textEditor from "../../assets/images/projectIMGs/JATE_snip.png";
 
 function Portfolio() {
   return (
@@ -168,6 +171,87 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
+              <a href="https://youtu.be/evxzpTv3JEE" target="_blank">
+                {" "}
+                <img
+                  src={svgLogoMaker}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="SVG Logo Maker"
+                />
+              </a>
+              <div>
+                <h6 class="img-description">Video Demonstration</h6>
+              </div>
+            </div>
+            <div className="job-text">
+              <h4>SVG Logo Maker</h4>
+              <p>
+                The SVG Logo Maker is a Node.js command-line tool for freelance
+                web developers, enabling quick generation of simple logos
+                without graphic design expertise. Built with Object-oriented
+                Programming, it offers customization options for text, color,
+                and shape selection. With Jest for testing and Inquirer for user
+                interaction, it ensures accuracy and a smooth experience,
+                producing an SVG file named logo.svg upon completion.{" "}
+              </p>
+              <br></br>
+              <a
+                href="https://github.com/TheOarsman/SVG-Logo-Maker"
+                target="_blank"
+              >
+                {" "}
+                GitHub Repository
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Website Portion of Porfolio */}
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a
+                href="https://theoarsman.github.io/Who-Is-The-Heinz-Barron-/"
+                target="_blank"
+              >
+                {" "}
+                <img
+                  src={heinzBarronPortfolio}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="TheHeinzBarron Portfolio"
+                />
+              </a>
+              <div>
+                <h6 className="img-description">Interactive Demo</h6>
+              </div>
+            </div>
+            <div className="job-text">
+              <h4>The Heinz Barron's 1st Portfolio</h4>
+              <p>
+                Five months ago, I took my first steps into web development with
+                this initial portfolio. It was a journey of discovery, filled
+                with challenges and learning. Today, I stand before you with a
+                new and updated portfolio, showcasing the remarkable progress
+                I've made, thanks to dedication and continuous learning. Dive in
+                and witness the evolution firsthand!"{" "}
+              </p>
+              <br></br>
+              <a
+                href="https://github.com/TheOarsman/Who-Is-The-Heinz-Barron-"
+                target="_blank"
+              >
+                {" "}
+                GitHub Repository
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
               <a
                 href="https://desolate-sierra-47851-d89056b73f92.herokuapp.com/"
                 target="_blank"
@@ -246,6 +330,47 @@ function Portfolio() {
           <div className="job-info">
             <div className="job-img">
               <a
+                href="https://jate-just-another-text-editor-ql4f.onrender.com/"
+                target="_blank"
+              >
+                {" "}
+                <img
+                  src={textEditor}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Test Editor"
+                />
+              </a>
+              <div>
+                <h6 class="img-description">Interactive Demo</h6>
+              </div>
+            </div>
+            <div className="job-text">
+              <h4>J.A.T.E. - Just Another Text Editor</h4>
+              <p>
+                J.A.T.E is a dynamic text editor designed for developers and
+                users seeking versatile editing capabilities. With offline
+                functionality as a Progressive Web App, robust data persistence,
+                and an intuitive interface, it offers a seamless editing
+                experience. Deployed on Render for reliability and scalability,
+                J.A.T.E ensures uninterrupted access to your content, anytime,
+                anywhere.{" "}
+              </p>
+              <br></br>
+              <a
+                href="https://github.com/TheOarsman/PWA-Text-Editor"
+                target="_blank"
+              >
+                {" "}
+                GitHub Repository
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a
                 href="https://theoarsman.github.io/Rodnam-Proswasd-Gnereotar/"
                 target="_blank"
               >
@@ -274,46 +399,6 @@ function Portfolio() {
               <br></br>
               <a
                 href="https://github.com/TheOarsman/Rodnam-Proswasd-Gnereotar"
-                target="_blank"
-              >
-                {" "}
-                GitHub Repository
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img">
-              <a
-                href="https://theoarsman.github.io/Who-Is-The-Heinz-Barron-/"
-                target="_blank"
-              >
-                {" "}
-                <img
-                  src={heinzBarronPortfolio}
-                  className="my-2"
-                  style={{ width: "100%" }}
-                  alt="TheHeinzBarron Portfolio"
-                />
-              </a>
-              <div>
-                <h6 className="img-description">Interactive Demo</h6>
-              </div>
-            </div>
-            <div className="job-text">
-              <h4>The Heinz Barron's 1st Portfolio</h4>
-              <p>
-                Five months ago, I took my first steps into web development with
-                this initial portfolio. It was a journey of discovery, filled
-                with challenges and learning. Today, I stand before you with a
-                new and updated portfolio, showcasing the remarkable progress
-                I've made, thanks to dedication and continuous learning. Dive in
-                and witness the evolution firsthand!"{" "}
-              </p>
-              <br></br>
-              <a
-                href="https://github.com/TheOarsman/Who-Is-The-Heinz-Barron-"
                 target="_blank"
               >
                 {" "}
@@ -355,6 +440,45 @@ function Portfolio() {
               <br></br>
               <a
                 href="https://github.com/TheOarsman/Work-Day-Scheduler"
+                target="_blank"
+              >
+                {" "}
+                GitHub Repository
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a
+                href="https://memosphere-a4428ea90189.herokuapp.com/"
+                target="_blank"
+              >
+                {" "}
+                <img
+                  src={noteTaker}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Note Taker"
+                />
+              </a>
+              <div>
+                <h6 className="img-description">Interactive Demo</h6>
+              </div>
+            </div>
+            <div className="job-text">
+              <h4>Note Taker</h4>
+              <p>
+                The Note Taker is a user-friendly web app enabling note
+                creation, saving, and deletion. Ideal for organizing thoughts,
+                managing tasks, and storing essential information, it offers
+                intuitive features such as note creation, saving, viewing, and
+                deletion.{" "}
+              </p>
+              <br></br>
+              <a
+                href="https://github.com/TheOarsman/Express.js_Note_Taker"
                 target="_blank"
               >
                 {" "}
