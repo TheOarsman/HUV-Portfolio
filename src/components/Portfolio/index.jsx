@@ -6,7 +6,6 @@ import readMeGen from "../../assets/images/projectIMGs/readme_generator.jpg";
 import sillyAPI from "../../assets/images/projectIMGs/SillyAPI.jpg";
 import socialNetwork from "../../assets/images/projectIMGs/social_network_api.png";
 import weatherDash1 from "../../assets/images/projectIMGs/weather_dashboard1.png";
-import weatherDash2 from "../../assets/images/projectIMGs/weather_dashboard2.png";
 import workDayScheduler from "../../assets/images/projectIMGs/work_day_scheduler.jpg";
 
 function Portfolio() {
