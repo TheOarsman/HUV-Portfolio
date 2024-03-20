@@ -18,7 +18,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://youtu.be/aUWs9hD5Fr8">
+              <a href="https://youtu.be/aUWs9hD5Fr8" target="_blank">
                 {" "}
                 <img
                   src={employeeTracker}
