@@ -94,46 +94,6 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a
-                href="https://theoarsman.github.io/Rodnam-Proswasd-Gnereotar/"
-                target="_blank"
-              >
-                {" "}
-                <img
-                  src={passWordGen}
-                  className="my-2"
-                  style={{ width: "100%" }}
-                  alt="Password Generator"
-                />
-              </a>
-              <div>
-                <h6 class="img-description">Interactive Demo</h6>
-              </div>
-            </div>
-            <div className="job-text">
-              <h4>Password Generator</h4>
-              <p>
-                This page showcases a Random Password Generator. The generator
-                prompts users to specify their preferences for password
-                criteria, including length, special characters, upper/lower case
-                letters, and numerics. Based on these selections, the tool
-                generates a random password tailored to the user's
-                specifications.
-              </p>
-              <br></br>
-              <a
-                href="https://github.com/TheOarsman/Rodnam-Proswasd-Gnereotar"
-                target="_blank"
-              >
-                {" "}
-                GitHub Repository
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img">
               <a href="https://youtu.be/Oqe-QMF2NqM" target="_blank">
                 {" "}
                 <img
@@ -159,42 +119,6 @@ function Portfolio() {
               <br></br>
               <a
                 href="https://github.com/TheOarsman/README-Generator"
-                target="_blank"
-              >
-                {" "}
-                GitHub Repository
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img">
-              <a
-                href="https://desolate-sierra-47851-d89056b73f92.herokuapp.com/"
-                target="_blank"
-              >
-                {" "}
-                <img
-                  src={sillyAPI}
-                  className="my-2"
-                  style={{ width: "100%" }}
-                  alt="Silly API"
-                />
-              </a>
-              <div>
-                <h6 class="img-description">Interactive Demo</h6>
-              </div>
-            </div>
-            <div className="job-text">
-              <h4>Slappi API</h4>
-              <p>
-                A website for all things wonky and silly, that coders and
-                programmers can have fun!{" "}
-              </p>
-              <br></br>
-              <a
-                href="https://github.com/TheOarsman/ORM-E-Commerce-Back-End"
                 target="_blank"
               >
                 {" "}
@@ -244,6 +168,42 @@ function Portfolio() {
           <div className="job-info">
             <div className="job-img">
               <a
+                href="https://desolate-sierra-47851-d89056b73f92.herokuapp.com/"
+                target="_blank"
+              >
+                {" "}
+                <img
+                  src={sillyAPI}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Silly API"
+                />
+              </a>
+              <div>
+                <h6 class="img-description">Interactive Demo</h6>
+              </div>
+            </div>
+            <div className="job-text">
+              <h4>Slappi API</h4>
+              <p>
+                A website for all things wonky and silly, that coders and
+                programmers can have fun!{" "}
+              </p>
+              <br></br>
+              <a
+                href="https://github.com/TheOarsman/ORM-E-Commerce-Back-End"
+                target="_blank"
+              >
+                {" "}
+                GitHub Repository
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a
                 href="https://theoarsman.github.io/Weather_Dashboard_SS_API/"
                 target="_blank"
               >
@@ -273,6 +233,46 @@ function Portfolio() {
               <br></br>
               <a
                 href="https://github.com/TheOarsman/Weather_Dashboard_SS_API"
+                target="_blank"
+              >
+                {" "}
+                GitHub Repository
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a
+                href="https://theoarsman.github.io/Rodnam-Proswasd-Gnereotar/"
+                target="_blank"
+              >
+                {" "}
+                <img
+                  src={passWordGen}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Password Generator"
+                />
+              </a>
+              <div>
+                <h6 class="img-description">Interactive Demo</h6>
+              </div>
+            </div>
+            <div className="job-text">
+              <h4>Password Generator</h4>
+              <p>
+                This page showcases a Random Password Generator. The generator
+                prompts users to specify their preferences for password
+                criteria, including length, special characters, upper/lower case
+                letters, and numerics. Based on these selections, the tool
+                generates a random password tailored to the user's
+                specifications.
+              </p>
+              <br></br>
+              <a
+                href="https://github.com/TheOarsman/Rodnam-Proswasd-Gnereotar"
                 target="_blank"
               >
                 {" "}
