@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Project from "../Project";
 import employeeTracker from "../../assets/images/projectIMGs/employee_tracker.jpg";
 import eCommerce from "../../assets/images/projectIMGs/orm_e_commerce.png";
 import passWordGen from "../../assets/images/projectIMGs/PsswrdGnrtr.png";
@@ -19,45 +20,22 @@ function Portfolio() {
         <div className="work-heading">
           <h2 className="section-title secondary-border">Work</h2>
         </div>
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img">
-              <a href="https://youtu.be/aUWs9hD5Fr8" target="_blank">
-                {" "}
-                <img
-                  src={employeeTracker}
-                  className="my-2"
-                  style={{ width: "100%" }}
-                  alt="Employee Tracker"
-                />
-              </a>
-              <div>
-                <h6 class="img-description">Video Demonstration</h6>
-              </div>
-            </div>
-            <div className="job-text">
-              <h4>Employee Tracker</h4>
-              <p>
-                This command-line application serves as a Content Management
+        <Project
+          deployedLink="https://youtu.be/aUWs9hD5Fr8"
+          thumbnail={employeeTracker}
+          demoType="video"
+          name="Employee Tracker"
+          description="This command-line application serves as a Content Management
                 System (CMS) designed for managing a company's employee database
                 efficiently. With the integration of the Inquirer and MySQL2
                 packages, users, particularly business owners, can seamlessly
                 view and interact with information stored in the database. Its
                 primary features include the ability to manage departments,
                 roles, and employees, empowering business owners to organize and
-                plan their business effectively.{" "}
-              </p>
-              <br></br>
-              <a
-                href="https://github.com/TheOarsman/SQL_Employee_Tracker"
-                target="_blank"
-              >
-                {" "}
-                GitHub Repository
-              </a>
-            </div>
-          </div>
-        </div>
+                plan their business effectively."
+          repoURL="https://github.com/TheOarsman/SQL_Employee_Tracker"
+        ></Project>
+
         <div className="job">
           <div className="job-info">
             <div className="job-img">
