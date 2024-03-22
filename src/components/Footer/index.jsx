@@ -13,7 +13,11 @@ function Footer() {
           className="logo"
           style={{ display: "inline-block", marginRight: "10px" }}
         >
-          <a href="https://www.github.com/TheOarsman">
+          <a
+            href="https://www.github.com/TheOarsman"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={gitHubFooterIMG} alt="GitHub" height="26" width="26" />
           </a>
         </li>
@@ -21,7 +25,11 @@ function Footer() {
           className="logo"
           style={{ display: "inline-block", marginRight: "10px" }}
         >
-          <a href="https://www.linkedin.com/in/heinz-ulrich-v-3a3486a0/">
+          <a
+            href="https://www.linkedin.com/in/heinz-ulrich-v-3a3486a0/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={linkedInFooterIMG}
               alt="LinkedIn"
@@ -34,7 +42,11 @@ function Footer() {
           className="logo"
           style={{ display: "inline-block", marginRight: "10px" }}
         >
-          <a href="https://www.youtube.com/@theoarsman4581">
+          <a
+            href="https://www.youtube.com/@theoarsman4581"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={youTubeFooterIMG} alt="YouTube" height="26" width="26" />
           </a>
         </li>

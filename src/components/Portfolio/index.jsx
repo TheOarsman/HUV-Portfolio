@@ -138,7 +138,7 @@ function Portfolio() {
           repoURL="https://github.com/TheOarsman/PWA-Text-Editor"
         ></Project>
         <Project
-          deployedLink="https://theoarsman.github.io/"
+          deployedLink="https://theoarsman.github.io/Rodnam-Proswasd-Gnereotar/"
           thumbnail={passWordGen}
           demoType="deployed"
           name="Password Generator"
