@@ -7,7 +7,7 @@ import gmailFooterIMG from "../../assets/images/footer/gmailfooter.png";
 function Footer() {
   return (
     <footer>
-      <h2>Made by Heinz Ulrich V©</h2>
+      <h2>Made by Heinz Ulrich V © 2024</h2>
       <ul style={{ listStyle: "none", padding: 0 }}>
         <li
           className="logo"

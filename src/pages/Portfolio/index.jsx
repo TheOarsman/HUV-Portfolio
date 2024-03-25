@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Project from "../Project";
 import employeeTracker from "../../assets/images/projectIMGs/employee_tracker.jpg";
 import eCommerce from "../../assets/images/projectIMGs/orm_e_commerce.png";
@@ -12,6 +11,7 @@ import heinzBarronPortfolio from "../../assets/images/projectIMGs/HeinzBarronPor
 import svgLogoMaker from "../../assets/images/projectIMGs/logoMaker.png";
 import noteTaker from "../../assets/images/projectIMGs/noteTakerHome.png";
 import textEditor from "../../assets/images/projectIMGs/JATE_snip.png";
+import blockBuster2024 from "../../assets/images/projectIMGs/blockbuster2024.png";
 
 function Portfolio() {
   return (
@@ -86,6 +86,14 @@ function Portfolio() {
                 interaction, it ensures accuracy and a smooth experience,
                 producing an SVG file named logo.svg upon completion."
           repoURL="https://github.com/TheOarsman/SVG-Logo-Maker"
+        ></Project>
+        <Project
+          deployedLink="https://blockbuster2024.onrender.com/"
+          thumbnail={blockBuster2024}
+          demoType="deployed"
+          name="Blockbuster 2024"
+          description="Introducing our final project: a nostalgic journey into the world of movies with our web application reminiscent of the beloved BLOCKBUSTER era. Our platform invites users to explore a vast collection of films, create personalized watch lists, and curate their top favorites. Additionally, users can delve into the realm of literature, discovering books that inspired cinematic classics. Whether you're reminiscing about the joy of browsing VHS tapes or seeking offline entertainment, our website offers a delightful and interactive experience for all movie enthusiasts."
+          repoURL="https://github.com/TheOarsman/Blockbuster2024"
         ></Project>
         <Project
           deployedLink="https://theoarsman.github.io/Who-Is-The-Heinz-Barron-/"
