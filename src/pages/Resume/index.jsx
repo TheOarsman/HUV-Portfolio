@@ -2,7 +2,7 @@ import { BsCloudDownload } from "react-icons/bs";
 
 function Resume() {
   const googleDriveLink =
-    "https://docs.google.com/document/d/1Q1LASGiUF5eVzybD8pITkUZbA-tBx4zqL0Tmx5DZD7k/edit?usp=sharing";
+    "https://drive.google.com/file/d/1Jnu__THjQXhRm8Q-yw4FLUM3kvECPQh2/view?usp=sharing";
 
   return (
     <>
